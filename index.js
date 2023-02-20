@@ -104,7 +104,7 @@ for (const e of eventsData) {
     for (let date = startDate; date <= endDate; date.setDate(date.getDate() + 1)) {
       flattenedEventsData.push(
         {
-          "date": new Date(date.getTime()),
+          "date": new Date(date),
           "time": e.date.range.time,
           "title": e.title,
           "location": loc,
@@ -115,7 +115,8 @@ for (const e of eventsData) {
   }
 }
 
-flattenedEventsData.sort((a, b) => b.date > a.date)
+flattenedEventsData.sort((a, b) => b.date - a.date)
+console.log(flattenedEventsData)
 
 for (const e of flattenedEventsData) {
   const row = eventsTable.insertRow(0);
