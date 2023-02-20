@@ -1,0 +1,74 @@
+- id: south_bank_centre
+  name: South Bank Centre
+  address: South Bank Centre, SE1 8XX
+  location_description: Central London, next to Waterloo station
+
+- id: wibbandune_sports_ground
+  name: Wibbandune Sports Ground
+  address: Wibbandune Sports Ground, Wimbledon
+  location_description: Bottom of Wimbledon Common, next to the A3
+
+- id: polka_theatre
+  name: Polka Theatre
+  address: Polka Theatre, Wimbledon
+  location_description: Wimbledon High Street
+
+- id: rose_theatre
+  name: Rose Theatre
+  address: Rose Theatre, Kingston
+  location_description: Kingston, near the river
+
+- id: london_transport_depot
+  name: London Transport Depot
+  address: London Transport Depot, Acton
+  location_description: Acton, a little far away!
+
+- id: all_saints_church
+  name: All Saints Church
+  address: All Saints Church
+  location_description: Kingston town centre, near John Lewis
+
+- id: kimber_bike_track
+  name: Kimber Bike Track
+  address: Kimber Bike Track, Wandsworth
+  location_description: King George's Park, near Wandsworth
+
+- id: better_gym_wimbledon
+  name: Better Gym, Wimledon
+  address: Better Gym, South Wimbledon
+  location_description: bottom of Wimbledon High Street
+
+- id: deen_city_farm
+  name: Deen City Farm
+  address: Deen City Farm, Morden
+  location_description: near Morden Hall Park
+
+- id: wimbledon_park
+  name: Wimbledon Park
+  address: Wimbledon Park
+  location_description: next to Wimbledon Park tube station
+
+- id: morden_tube_depot
+  name: Footbridge over Morden Train Depot
+  address: "51°23'56.5N+0°11'49.2W"
+  location_description: 3 min walk from Morden town centre
+
+- id: wimbledon_bridges
+  name: Footbridges near Wimbledon train station
+  address: "51°25'10.0N+0°12'33.6W" 
+  location_description: 3 min walk from the station
+
+- id: tate_britain
+  name: Tate Britain
+  address: Tate Britain
+  location_description: over the bridge from Vauxhall station
+
+- id: ltm
+  name: London Transport Museum
+  address: London Transport Museum
+  location_description: near Covent Garden tube, or 15 min walk from Waterloo station
+
+- id: morden_hall_park
+  name: Morden Hall Park
+  address: Morden Hall Park
+  location_description: near Morden town centre, or several stops on the Croydon tramlink

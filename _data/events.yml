@@ -1,0 +1,118 @@
+- date:
+    specific:
+      - date: "2023-03-26"
+        time: "15:00"
+  title: YoLanda's Band Jam
+  location_id: south_bank_centre
+  url: https://example.com
+  
+- date:
+    specific:
+      - date: "2023-03-26"
+        time: "15:00"
+      - date: "2023-03-30"
+        time: "15:00"
+  title: The Colour Monster
+  location_id: south_bank_centre
+  url: https://example.com
+
+- date:
+    specific:
+      - date: "2023-02-18"
+        time: "15:00"
+  title: Colliers Wood United v Raynes Park Vale
+  location_id: wibbandune_sports_ground
+  url: https://www.wibbandune.com/
+
+- date:
+    specific:
+      - date: "2023-03-18"
+        time: "14:00"
+  title: Colliers Wood United v Banstead Athletic
+  location_id: wibbandune_sports_ground
+  url: https://www.wibbandune.com/
+
+- date:
+    specific:
+      - date: "2023-03-18"
+        time: "14:00"
+  title: Colliers Wood United v Frimley Green
+  location_id: wibbandune_sports_ground
+  url: https://www.wibbandune.com/
+
+- date:
+    range:
+      start_date: "2023-02-11"
+      end_date: "2023-03-26"
+      time: "Various"
+  title: Jack v Giant
+  location_id: polka_theatre
+  url: https://polkatheatre.com/event/jack-v-giant/
+
+- date:
+    range:
+      start_date: "2023-04-01"
+      end_date: "2023-05-21"
+      time: "Various"
+  title: Let's Build
+  location_id: polka_theatre
+  url: https://polkatheatre.com/event/lets-build/
+
+- date:
+    range:
+      start_date: "2023-03-11"
+      end_date: "2023-03-23"
+      time: "10:30, 14:30"
+  title: "The Gruffalo, the Giant and the Mermaid with Julia Donaldson"
+  location_id: rose_theatre
+  url: https://rosetheatre.org/whats-on/the-gruffalo-the-giant-and-the-mermaid-with-julia-donaldson/book-tickets
+
+- date:
+    range:
+      start_date: "2023-04-04"
+      end_date: "2023-04-16"
+      time: "11:00, 13:30"
+  title: "The Smeds and the Smoos"
+  location_id: rose_theatre
+  url: https://rosetheatre.org/whats-on/the-smeds-and-the-smoos
+
+- date:
+    specific:
+      - date: "2023-03-04"
+        time: "10:15 and 12:00"
+  title: "The Wolf, the Duck and the Mouse"
+  location_id: south_bank_centre
+  url: https://www.southbankcentre.co.uk/whats-on/classical-music/wolf-duck-and-mouse?eventId=919742
+
+- date:
+    range:
+      start_date: "2023-03-24"
+      end_date: "2023-03-26"
+      time: "All day"
+  title: "London Transport Depot open day"
+  location_id: london_transport_depot
+  url: https://www.ltmuseum.co.uk/whats-on/depot/depot-open-days-electric-journeys
+
+- date:
+    specific:
+      - date: "2023-03-06"
+        time: "13:15"
+  title: Piano concert
+  location_id: all_saints_church
+  url: https://www.allsaintskingston.co.uk/upcoming-events
+
+- date:
+    specific:
+      - date: "2023-03-13"
+        time: "13:15"
+  title: Piano concert
+  location_id: all_saints_church
+  url: https://www.allsaintskingston.co.uk/upcoming-events
+
+- date:
+    specific:
+      - date: "2023-03-20"
+        time: "13:15"
+  title: Piano concert
+  location_id: all_saints_church
+  url: https://www.allsaintskingston.co.uk/upcoming-events

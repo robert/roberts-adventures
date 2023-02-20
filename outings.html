@@ -1,0 +1,57 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./outings.js" defer></script>
+
+    <script>
+      const outingsData = JSON.parse(decodeURIComponent("{{ site.data.outings| jsonify | strip_newlines | uri_escape  }}"));
+      const locationsData = JSON.parse(decodeURIComponent("{{ site.data.locations | jsonify | uri_escape  }}"));
+    </script>
+
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <title>Outings</title>
+</head>
+<body class="pa4 sans-serif">
+    <!-- <header class="mw8 w-100 center"> -->
+    <!--     <h1>Robert's Adventures</h1> -->
+    <!--     <h2>Things to do with kids, in and around Wimbledon</h1> -->
+    <!-- </header> -->
+    <header class="bg-white black-80 tc pv2">
+      <h1 class="mt2 mb0 i fw1 f1">Robert's Adventures</h1>
+      <h2 class="mt2 mb0 f6 fw4 ttu tracked">Things to do with kids, in and around Wimbledon</h2>
+      <nav class="bt bb tc mw7 center mt4">
+        <a class="f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l" href="/">Events</a>
+        <a class="f6 f5-l link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l" href="/outings">Outings</a>
+        <a class="f6 f5-l link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l" href="/about">About</a>
+      </nav>
+    </header>
+    <main class="mw8 w-100 center">
+        <h2 class="f2">Outings</h2>
+        <p><em>Unscheduled things to do that are open regularly.</em></p>
+        <br/>
+        <table class="w-100 ba b--near-white collapse" id="outings">
+            <thead>
+                <tr>
+                    <th class="pa3 bb b--near-white">What?</th>
+                    <th class="pa3 bb b--near-white">About</th>
+                    <th class="pa3 bb b--near-white">Where?</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for o in site.data.outings %}
+            <!-- <tr class="striped--near-white" data-datetime="{{ event.datetime | date_to_xmlschema }}" data-outing> -->
+            <!--   <td class="pa3"><a href="{{ o.url }}">{{ o.title }}</a></td> -->
+            <!--   <td class="pa3">{{ o.description }}</td> -->
+            <!--   <td class="pa3"><a href="https://www.google.com/maps/search/{ {o.location.address }}">{{ o.location.name }}</a><br/><em>({{ o.location.description }})</em></td> -->
+            <!-- </tr> -->
+            {% endfor %}
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

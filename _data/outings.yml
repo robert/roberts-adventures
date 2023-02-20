@@ -1,0 +1,44 @@
+- title: BMX track riding
+  description: Welcoming skatepark with a BMX track that even 2 year olds can ride on balance bikes!
+  url: https://fis.wandsworth.gov.uk/kb5/wandsworth/fsd/service.page?id=XLDHyXuqiMA
+  location_id: kimber_bike_track
+
+- title: Swimming
+  description: Gym with a kids swimming pool that opens on weekends
+  url: https://www.better.org.uk/leisure-centre/london/merton/wimbledon-leisure-centre
+  location_id: better_gym_wimbledon
+
+- title: Deen City Farm
+  description: Urban farm with a playground and horse riding school.
+  url: https://www.deencityfarm.co.uk/
+  location_id: deen_city_farm
+
+- title: Orienteering in Wimbledon Park
+  description: Permanent short orienteering course in Wimbledon Park. Download map from the website.
+  url: https://www.goorienteering.org.uk/course/wimbledon_park
+  location_id: wimbledon_park
+
+- title: Watch trains at the Morden tube depot
+  description: Watch trains come in and out of Morden's Northern Line depot.
+  url: https://en.wikipedia.org/wiki/Morden_Depot
+  location_id: morden_tube_depot
+
+- title: Watch trains near Wimbledon Station
+  description: Watch fast and slow trains go through Wimbledon train station.
+  url: https://en.wikipedia.org/wiki/Wimbledon_station
+  location_id: wimbledon_bridges
+
+- title: Tate Britain Play Studio
+  description: "Free, well-stocked room for making art and music. Note: only open on Fridays and weekends."
+  url: https://www.tate.org.uk/whats-on/tate-britain/play-studio
+  location_id: tate_britain
+
+- title: London Transport Museum
+  description: Museum about trains and buses with lots of play equipment.
+  url: https://www.ltmuseum.co.uk/
+  location_id: ltm
+
+- title: Morden Hall Park
+  description: National Trust park in Morden.
+  url: https://www.nationaltrust.org.uk/visit/london/morden-hall-park
+  location_id: morden_hall_park
