@@ -1,23 +1,5 @@
 - date:
     specific:
-      - date: "2023-03-26"
-        time: "15:00"
-  title: YoLanda's Band Jam
-  location_id: south_bank_centre
-  url: https://example.com
-  
-- date:
-    specific:
-      - date: "2023-03-26"
-        time: "15:00"
-      - date: "2023-03-30"
-        time: "15:00"
-  title: The Colour Monster
-  location_id: south_bank_centre
-  url: https://example.com
-
-- date:
-    specific:
       - date: "2023-02-18"
         time: "15:00"
   title: Colliers Wood United v Raynes Park Vale
@@ -34,7 +16,7 @@
 
 - date:
     specific:
-      - date: "2023-03-18"
+      - date: "2023-04-15"
         time: "14:00"
   title: Colliers Wood United v Frimley Green
   location_id: wibbandune_sports_ground
@@ -77,6 +59,24 @@
   url: https://rosetheatre.org/whats-on/the-smeds-and-the-smoos
 
 - date:
+    range:
+      start_date: "2023-05-31"
+      end_date: "2023-06-04"
+      time: 10:30, 14:00
+  title: Hey Duggee
+  location_id: rose_theatre
+  url: https://rosetheatre.org/whats-on/hey-duggee
+
+- date:
+    range:
+      start_date: "2023-07-12"
+      end_date: "2023-07-16"
+      time: Various
+  title: Zog
+  location_id: rose_theatre
+  url: https://rosetheatre.org/whats-on/zog
+
+- date:
     specific:
       - date: "2023-03-04"
         time: "10:15 and 12:00"
@@ -116,3 +116,125 @@
   title: Piano concert
   location_id: all_saints_church
   url: https://www.allsaintskingston.co.uk/upcoming-events
+
+- date:
+    specific:
+      - date: "2023-02-21"
+        time: "10:30, 11:30, 13:20, 14:20"
+      - date: "2023-02-24"
+        time: "10:30, 11:30, 13:20, 14:20"
+      - date: "2023-02-28"
+        time: "10:30, 11:30, 13:20, 14:20"
+      - date: "2023-03-03"
+        time: "10:30, 11:30, 13:20, 14:20"
+      - date: "2023-03-07"
+        time: "10:30, 11:30, 13:20, 14:20"
+      - date: "2023-03-10"
+        time: "10:30, 11:30, 13:20, 14:20"
+  title: Singing and stories at London Transport Museum
+  location_id: ltm
+  url: https://www.ltmuseum.co.uk/whats-on/singing-and-story-sessions
+
+- date:
+    specific:
+      - date: "2023-04-09"
+        time: "13:00-16:00"
+      - date: "2023-04-10"
+        time: "13:00-16:00"
+      - date: "2023-04-30"
+        time: "13:00-16:00"
+      - date: "2023-05-01"
+        time: "13:00-16:00"
+      - date: "2023-05-07"
+        time: "13:00-16:00"
+      - date: "2023-05-28"
+        time: "13:00-16:00"
+      - date: "2023-05-29"
+        time: "13:00-16:00"
+  title: Thames Ditton Model Railway Open Day
+  location_id: malden_dsme
+  url: https://www.malden-dsme.org/
+
+- date:
+    specific:
+      - date: "2023-02-27"
+        time: "10:00-10:45"
+      - date: "2023-03-06"
+        time: "10:00-10:45"
+      - date: "2023-03-13"
+        time: "10:00-10:45"
+      - date: "2023-03-20"
+        time: "10:00-10:45"
+      - date: "2023-03-27"
+        time: "10:00-10:45"
+      - date: "2023-04-03"
+        time: "10:00-10:45"
+  title: Morden Hall Park Explorers for U-5s
+  location_id: morden_hall_park
+  url: https://www.nationaltrust.org.uk/visit/london/morden-hall-park/events/9938b951-1b82-40a9-9cd5-90647bc1d562
+
+- date:
+    specific:
+      - date: "2023-03-25"
+        time: "All day"
+      - date: "2023-03-26"
+        time: "All day"
+      - date: "2023-04-22"
+        time: "All day"
+      - date: "2023-04-23"
+        time: "All day"
+      - date: "2023-06-17"
+        time: "All day"
+      - date: "2023-06-18"
+        time: "All day"
+      - date: "2023-08-19"
+        time: "All day"
+      - date: "2023-08-20"
+        time: "All day"
+      - date: "2023-09-16"
+        time: "All day"
+      - date: "2023-09-17"
+        time: "All day"
+      - date: "2023-10-21"
+        time: "All day"
+      - date: "2023-10-22"
+        time: "All day"
+  title: "\"Weekend of Steam\" Railway Open Day"
+  location_id: hampton_kempton_railway
+  url: https://hamptonkemptonrailway.org.uk/special-events-2023/
+
+- date:
+    specific:
+      - date: "2023-03-18"
+        time: "All day"
+      - date: "2023-04-09"
+        time: "All day"
+      - date: "2023-05-20"
+        time: "All day"
+      - date: "2023-05-20"
+        time: "All day"
+      - date: "2023-06-11"
+        time: "All day"
+      - date: "2023-07-08"
+        time: "All day"
+      - date: "2023-07-09"
+        time: "All day"
+      - date: "2023-09-09"
+        time: "All day"
+      - date: "2023-09-10"
+        time: "All day"
+      - date: "2023-10-28"
+        time: "All day"
+      - date: "2023-10-29"
+        time: "All day"
+      - date: "2023-12-09"
+        time: "All day"
+      - date: "2023-12-10"
+        time: "All day"
+      - date: "2023-12-16"
+        time: "All day"
+      - date: "2023-12-17"
+        time: "All day"
+  title: "Special Steam Railway Open Day"
+  location_id: hampton_kempton_railway
+  url: https://hamptonkemptonrailway.org.uk/special-events-2023/

@@ -72,3 +72,13 @@
   name: Morden Hall Park
   address: Morden Hall Park
   location_description: near Morden town centre, or several stops on the Croydon tramlink
+
+- id: malden_dsme
+  name: Thames Ditton Model Railway
+  address: Thames Ditton Miniature Railways
+  location_description: "15 min walk from Thames Ditton station"
+
+- id: hampton_kempton_railway
+  name: Hampton Kempton Waterworks Railway
+  address: Hampton Kempton Waterworks Railway
+  location_description: "20 min bus from Sunbury station"
