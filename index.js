@@ -124,7 +124,7 @@ for (const e of flattenedEventsData) {
 
   row.classList.add("striped--near-white")
   let cellIdx = 0;
-  function addCell(html) {
+  var addCell = function (html) {
     const cell = row.insertCell(cellIdx);
     cell.innerHTML = html;
     cell.classList.add("pa3");
